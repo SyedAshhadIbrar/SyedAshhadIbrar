@@ -30,9 +30,9 @@ I'm an **AI/ML & LLM engineer** building **classical ML models, RAG pipelines, m
 
 <div align="center">
 
-**Core & Serving**
+**Languages & Tools**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,aws,gcp,opencv,git,linux&perline=9" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,pytorch,tensorflow,jupyter,fastapi,streamlit,gradio,docker,postgresql,aws,gcp&perline=11" />
 
 **Machine Learning**
 
