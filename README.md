@@ -9,7 +9,6 @@
 
 <a href="https://www.linkedin.com/in/syed-ashhad-ibrar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:syedashhadibrar8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=SyedAshhadIbrar.SyedAshhadIbrar&left_text=PROFILE%20VIEWS&left_color=%23555555&right_color=%2336bcf7" height="28"/>
 
 </div>
 
@@ -17,14 +16,13 @@
 
 ## 👨‍💻 About Me
 
-I'm an **AI/ML & LLM engineer**. I build systems that are measured, not guessed: **classical ML models, RAG pipelines, multi-agent systems and the eval harnesses that keep them honest.** My approach was shaped by work in **healthcare AI**, where a confident wrong answer is a real risk and evaluation isn't optional.
+I'm an **AI/ML & LLM engineer** building **classical ML models, RAG pipelines, multi-agent systems and the eval harnesses that keep them honest.** My approach was shaped by work in **healthcare AI**, where a confident wrong answer is a real risk and evaluation isn't optional.
 
-- 🧠 **ML:** supervised modelling, gradient-boosted ensembles, feature engineering, model selection
-- 🧱 **LLMs:** retrieval-augmented generation, tool-using agents, LLM-backed APIs
-- 📏 **Measure:** cross-validation, golden datasets, RAG metrics, regression tests, tracing
-- 🔭 **Currently:** multi-agent systems, grounded RAG, and LLM fine-tuning & evaluation
-- 🤝 **Open to:** remote AI/ML & LLM Engineering roles and open-source collaborations
-- ⚡ **Fun fact:** I debug ECG signals and Python stack traces with equal patience.
+- **ML:** supervised modelling, gradient-boosted ensembles, feature engineering, model selection
+- **LLMs:** retrieval-augmented generation, tool-using agents, LLM-backed APIs
+- **Measure:** cross-validation, golden datasets, RAG metrics, regression tests, tracing
+- **Currently:** multi-agent systems, grounded RAG, and LLM fine-tuning & evaluation
+- **Open to:** remote AI/ML & LLM Engineering roles and open-source collaborations
 
 ---
 
@@ -90,29 +88,3 @@ I'm an **AI/ML & LLM engineer**. I build systems that are measured, not guessed:
 2. **Ground every answer.** If it can't cite its source, it doesn't get said.
 3. **Reproducible by default.** Pinned data, versioned prompts, deterministic test sets.
 4. **Humans stay in the loop.** Where mistakes are costly, the system assists; experts decide.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SyedAshhadIbrar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SyedAshhadIbrar&layout=compact&theme=tokyonight&hide_border=true" />
-
-<img src="https://streak-stats.demolab.com?user=SyedAshhadIbrar&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SyedAshhadIbrar/SyedAshhadIbrar/output/github-snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/SyedAshhadIbrar/SyedAshhadIbrar/output/github-snake.svg" />
-</picture>
-
-</div>
