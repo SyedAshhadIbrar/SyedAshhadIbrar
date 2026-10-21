@@ -12,6 +12,7 @@ USER = 'SyedAshhadIbrar'
 JOINED = datetime.date(2024, 7, 18)  # GitHub account creation date
 WIDTH = 56  # info column width in characters
 CHAR_W, LINE_H, PAD = 8.4, 20, 24  # 14px monospace metrics
+ART_CW, ART_LH = 6.0, 12  # 10px portrait font; ascii art is generated for this 0.5 aspect
 
 THEMES = {
     'dark': dict(bg='#0d1117', border='#30363d', fg='#c9d1d9', key='#ffa657', val='#a5d6ff', dot='#484f58'),
@@ -94,23 +95,22 @@ def info_lines(stats):
 
 def render(theme, art, info):
     c = THEMES[theme]
-    art_w = max(map(len, art))
-    info_x = PAD + (art_w + 3) * CHAR_W
-    rows = max(len(art), len(info))
-    w, h = info_x + WIDTH * CHAR_W + PAD, rows * LINE_H + 2 * PAD
+    info_x = PAD + max(map(len, art)) * ART_CW + 3 * CHAR_W
+    art_h, info_h = len(art) * ART_LH, len(info) * LINE_H
+    w, h = info_x + WIDTH * CHAR_W + PAD, max(art_h, info_h) + 2 * PAD
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="{w:.0f}" height="{h}" viewBox="0 0 {w:.0f} {h}">',
         f'<style>text{{white-space:pre;font:14px Consolas,"DejaVu Sans Mono","Courier New",monospace;fill:{c["fg"]}}}'
-        f'.k{{fill:{c["key"]}}}.v{{fill:{c["val"]}}}.d{{fill:{c["dot"]}}}</style>',
+        f'.k{{fill:{c["key"]}}}.v{{fill:{c["val"]}}}.d{{fill:{c["dot"]}}}.a{{font-size:10px}}</style>',
         f'<rect width="100%" height="100%" rx="12" fill="{c["bg"]}" stroke="{c["border"]}"/>',
     ]
-    top = (rows - len(info)) // 2  # center the info column beside the portrait
+    art_top, info_top = PAD + (h - 2 * PAD - art_h) / 2, PAD + (h - 2 * PAD - info_h) / 2  # center both columns
     for i, line in enumerate(art):
-        out.append(f'<text x="{PAD}" y="{PAD + (i + 1) * LINE_H - 5}">{escape(line)}</text>')
+        out.append(f'<text class="a" x="{PAD}" y="{art_top + (i + 1) * ART_LH - 3:.0f}">{escape(line)}</text>')
     for i, spans in enumerate(info):
         if spans:
             body = ''.join(f'<tspan class="{cls}">{escape(t)}</tspan>' if cls else escape(t) for cls, t in spans)
-            out.append(f'<text x="{info_x:.1f}" y="{PAD + (top + i + 1) * LINE_H - 5}">{body}</text>')
+            out.append(f'<text x="{info_x:.1f}" y="{info_top + (i + 1) * LINE_H - 5:.0f}">{body}</text>')
     out.append('</svg>')
     return '\n'.join(out)
 
