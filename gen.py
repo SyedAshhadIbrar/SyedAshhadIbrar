@@ -86,7 +86,7 @@ def info_lines(stats):
         [],
         section('Contact'),
         kv('LinkedIn', 'syed-ashhad-ibrar'),
-        kv('Email', 'YOUR_EMAIL'),
+        kv('Email', 'syedashhadibrar8@gmail.com'),
     ]
     if stats:
         lines += [[], section('GitHub Stats')] + [kv(k, v) for k, v in stats]
