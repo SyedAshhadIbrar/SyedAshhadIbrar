@@ -2,10 +2,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <img alt="Syed Ashhad Ibrar: AI / LLM Engineer" src="light_mode.svg" width="100%" />
+  <img alt="Syed Ashhad Ibrar: AI/ML &amp; LLM Engineer" src="light_mode.svg" width="100%" />
 </picture>
 
-**Building LLM systems that are measured, not guessed.**
+**AI/ML &amp; LLM Engineer: building ML and LLM systems that are measured, not guessed.**
 
 <a href="https://www.linkedin.com/in/syed-ashhad-ibrar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:syedashhadibrar8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -17,12 +17,13 @@
 
 ## 👨‍💻 About Me
 
-I build LLM systems that are measured, not guessed: **RAG pipelines, multi-agent systems and the eval harnesses that keep them honest.** My approach was shaped by work in **healthcare AI**, where a confident wrong answer is a real risk and evaluation isn't optional.
+I'm an **AI/ML & LLM engineer**. I build systems that are measured, not guessed: **classical ML models, RAG pipelines, multi-agent systems and the eval harnesses that keep them honest.** My approach was shaped by work in **healthcare AI**, where a confident wrong answer is a real risk and evaluation isn't optional.
 
-- 🧱 **Build:** retrieval-augmented generation, tool-using agents, LLM-backed APIs
-- 📏 **Measure:** golden datasets, RAG metrics, regression tests, tracing and observability
+- 🧠 **ML:** supervised modelling, gradient-boosted ensembles, feature engineering, model selection
+- 🧱 **LLMs:** retrieval-augmented generation, tool-using agents, LLM-backed APIs
+- 📏 **Measure:** cross-validation, golden datasets, RAG metrics, regression tests, tracing
 - 🔭 **Currently:** multi-agent systems, grounded RAG, and LLM fine-tuning & evaluation
-- 🤝 **Open to:** collaborations on RAG, agents and LLM evaluation
+- 🤝 **Open to:** remote AI/ML & LLM Engineering roles and open-source collaborations
 - ⚡ **Fun fact:** I debug ECG signals and Python stack traces with equal patience.
 
 ---
@@ -34,6 +35,15 @@ I build LLM systems that are measured, not guessed: **RAG pipelines, multi-agent
 **Core & Serving**
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,aws,gcp,opencv,git,linux&perline=9" />
+
+**Machine Learning**
+
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 
 **LLM & RAG**
 
