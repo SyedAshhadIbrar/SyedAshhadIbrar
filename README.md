@@ -9,7 +9,7 @@
 
 <a href="https://www.linkedin.com/in/syed-ashhad-ibrar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=SyedAshhadIbrar&style=for-the-badge&color=36BCF7&label=PROFILE+VIEWS"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=SyedAshhadIbrar.SyedAshhadIbrar&left_text=PROFILE%20VIEWS&left_color=%23555555&right_color=%2336bcf7" height="28"/>
 
 </div>
 
