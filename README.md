@@ -1,6 +1,9 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Syed%20Ashhad%20Ibrar&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20LLM%20Engineer%20%C2%B7%20RAG%20%C2%B7%20Agents%20%C2%B7%20Evals&descAlignY=58&descSize=18" width="100%"/>
-
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <img alt="Syed Ashhad Ibrar: AI / LLM Engineer" src="light_mode.svg" width="100%" />
+</picture>
 
 **Building LLM systems that are measured, not guessed.**
 
@@ -89,8 +92,6 @@ I build LLM systems that are measured, not guessed: **RAG pipelines, multi-agent
 
 <img src="https://streak-stats.demolab.com?user=SyedAshhadIbrar&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SyedAshhadIbrar&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-
 </div>
 
 ---
@@ -105,5 +106,3 @@ I build LLM systems that are measured, not guessed: **RAG pipelines, multi-agent
 </picture>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
