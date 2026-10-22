@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <img alt="Syed Ashhad Ibrar: AI/ML &amp; LLM Engineer" src="light_mode.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SyedAshhadIbrar/SyedAshhadIbrar/refs/heads/main/dark_mode.svg" />
+  <img alt="Syed Ashhad Ibrar: AI/ML &amp; LLM Engineer" src="https://raw.githubusercontent.com/SyedAshhadIbrar/SyedAshhadIbrar/refs/heads/main/light_mode.svg" width="100%" />
 </picture>
 
 **AI/ML &amp; LLM Engineer: building ML and LLM systems that are measured, not guessed.**
